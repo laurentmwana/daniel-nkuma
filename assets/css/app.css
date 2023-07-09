@@ -60,6 +60,12 @@ header ul a.active {
 }
 
 
+@media screen and (max-width: 800px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
+
 .img img {
     width: 500px;
     height: 500px;
